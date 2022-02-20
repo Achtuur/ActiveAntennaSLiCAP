@@ -1,11 +1,13 @@
 <h1>Cost Factors</h1>
 
 <ul>
-  <li>Dimensions: The electronics for the active antenna should fit on a PCB of maximally 25 x 50 x 15 mm. The length of the antenna equals 50 cm and the diameter equals 5 mm.</li>
-  <li>Power Consumption: The power consumption of the antenna should  0.25 W maximum.</li>
+  <li>Dimensions:         The electronics for the active antenna should fit on a PCB of maximally 25 x 50 x 15 mm. The length of the antenna equals 50 cm and the diameter equals 5 mm.</li>
+  <li>Power Consumption:  The power consumption of the antenna should  0.25 W maximum.</li>
   <li>Additional costs: 
-      <u2>Price of production</u2>
-      <u2>Materials used in production</u2>
-      <u2>Installation and maintenance</u2>
+    <ul>
+      <li>Price of production</li>
+      <li>Materials used in production</li>
+      <li>Installation and maintenance</li>
+    <ul>
   </li>
 </ul>
