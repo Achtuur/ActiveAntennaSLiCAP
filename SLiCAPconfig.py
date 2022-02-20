@@ -32,4 +32,4 @@ IMGPATH     = 'img/'    # path for image files
 PROJECT    = 'Active antenna assignment'
 AUTHOR     = 'Arthur'
 CREATED    = '2022-02-17 17:18:09.501572'
-LASTUPDATE = '2022-02-20 21:30:06.285215'
+LASTUPDATE = '2022-02-20 21:31:14.651275'
