@@ -1,7 +1,12 @@
-<h1>Functional Factors</h1>
+<h1>Functional Specifications</h1>
 
-<p>This is example text</p>
+    <p>Electronics for the active antenna must be designed with the following functional specifications</p>
 
-<p> you can do sort of line breaks by using different p tags </p>
-
-<h2> there's also big text</h2>
+<ul>
+    <li>The design must be compatible with an active whip antenna of 50cm length and 5mm diamter</li>
+    <li>The active antenna must receive power and communicate via the same 50 Ohm coax cable with SMA connectors which is connected to the interface</li>
+    <li>The supply voltage must be less than 10V DC.
+    <li>The input of the active antenna should be protected against ESD discharge</li>
+    <li>The electronics should withstand temperatures between -25 and 70 degrees Celcius</li>
+    <li>The active antenna must contain an amplifier</li>
+</ul>
