@@ -1,4 +1,4 @@
-<h1>Cost Factors</h1>
+<h2>Cost Factors</h2>
 
 <ul>
   <li>Dimensions:         The electronics for the active antenna should fit on a PCB of maximally 25 x 50 x 15 mm. The length of the antenna equals 50 cm and the diameter equals 5 mm.</li>
@@ -8,6 +8,6 @@
       <li>Price of production</li>
       <li>Materials used in production</li>
       <li>Installation and maintenance</li>
-    <ul>
+    </ul>
   </li>
 </ul>

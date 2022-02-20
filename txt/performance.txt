@@ -1,4 +1,4 @@
-<h1>Performance Specifications</h1>
+<h2>Performance Specifications</h2>
 
 <p>Electronics for the active antenna must be designed with the following performance specifications</p>
 <ul>

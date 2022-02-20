@@ -3,11 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 <meta name="Language" content="English"/>
-<title>"Environmental factors"</title><link rel="stylesheet" href="css/slicap.css">
+<title>"Factors"</title><link rel="stylesheet" href="css/slicap.css">
 <script>MathJax = {tex:{tags: 'ams', inlineMath:[['$','$'],]}, svg:{fontCache:'global'}};</script>
 <script type="text/javascript" id="MathJax-script" async  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-</head><body><div id="top"><h1>Environmental factors</h1></div>
-<h1>Environmental Factors</h1>
+</head><body><div id="top"><h1>Factors</h1></div>
+<h2>Environmental Factors</h2>
 
 <p>
 The antenna will be placed on the roof of EWI. This means that the antenna should be built such that it can survive and be used in this environment. 
@@ -45,10 +45,49 @@ This interface box is located at a short distance of the receiver.
 -->
 
 
-<!-- INSERT -->
+<h2>Cost Factors</h2>
+
+<ul>
+  <li>Dimensions:         The electronics for the active antenna should fit on a PCB of maximally 25 x 50 x 15 mm. The length of the antenna equals 50 cm and the diameter equals 5 mm.</li>
+  <li>Power Consumption:  The power consumption of the antenna should  0.25 W maximum.</li>
+  <li>Additional costs: 
+    <ul>
+      <li>Price of production</li>
+      <li>Materials used in production</li>
+      <li>Installation and maintenance</li>
+    </ul>
+  </li>
+</ul><h2>Functional Specifications</h2>
+
+    <p>Electronics for the active antenna must be designed with the following functional specifications</p>
+
+<ul>
+    <li>The design must be compatible with an active whip antenna of 50cm length and 5mm diamter</li>
+    <li>The active antenna must receive power and communicate via the same 50 Ohm coax cable with SMA connectors which is connected to the interface</li>
+    <li>The supply voltage must be less than 10V DC.
+    <li>The input of the active antenna should be protected against ESD discharge</li>
+    <li>The electronics should withstand temperatures between -25 and 70 degrees Celcius</li>
+    <li>The active antenna must contain an amplifier</li>
+</ul><h2>Performance Specifications</h2>
+
+<p>Electronics for the active antenna must be designed with the following performance specifications</p>
+<ul>
+    <li>The power consumption should be less than 0.25W</li>
+    <li>The -3dB freguency range of the active antenna should be equal to 10kHz to 30MHz</li>
+    <li>The electrical field strength at the antenna input should be equivalent to 0.45 Vrms m^-1</li>
+    <li>The inaccuracy of the gain at frequencies between 100kHz and 1MHz should be less than 20%</li> 
+    <li>The antenna-referred quivalent noise spectral density limits can be obtained by linear interpolation of the following list <ul>
+            <li>10kHz        200nVm^-1 Hz^-0.5 /li>
+            <li>100kHz       20nVm^-1 Hz^-0.5 /li>
+            <li>1MHz         10nVm^-1 Hz^-0.5 /li>
+            <li>100MHz       10nVm^-1 Hz^-0.5 /li>
+            <li>List within list</li>
+        </ul>
+    </li>
+</ul><!-- INSERT -->
 <div id="footnote">
 <p>Go to <a href="index.html">index</a></p>
 <p>SLiCAP: Symbolic Linear Circuit Analysis Program, Version 1.1 &copy 2009-2022 SLiCAP development team</p>
 <p>For documentation, examples, support, updates and courses please visit: <a href="http://www.analog-electronics.eu">analog-electronics.eu</a></p>
-<p>Last project update: 2022-02-20 21:28:00</p>
+<p>Last project update: 2022-02-20 21:30:06</p>
 </div></body></html>

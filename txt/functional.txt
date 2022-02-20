@@ -1,4 +1,4 @@
-<h1>Functional Specifications</h1>
+<h2>Functional Specifications</h2>
 
     <p>Electronics for the active antenna must be designed with the following functional specifications</p>
 
